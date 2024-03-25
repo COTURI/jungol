@@ -20,7 +20,7 @@ public class Main {
 			}
 		}
 		System.out.println(sum);
-		System.out.println((double) sum / cnt);
+//		System.out.println((double) sum / cnt);
 		System.out.printf("%.1f\n", (double) sum / cnt);
 	}
 }
