@@ -12,8 +12,7 @@ public class Main {
 			int inp = sc.nextInt();
 			cnt++; 
 			sum += inp; // 계속 입력되는 값 더하기
-			System.out.print(inp + " ");
-
+			
 			if (inp >= 100) {
 				sc.close();
 				break;
