@@ -7,11 +7,11 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int m = sc.nextInt();
 		int h = sc.nextInt();
-		int b = m + 100 - h;
+		int b = h + 100 - m;
 		sc.close();
 
 		if (b > 0) {
-			System.out.println(5);
+			System.out.println(b);
 			System.out.println("Obesity");
 		} else {
 			System.out.println(b);
